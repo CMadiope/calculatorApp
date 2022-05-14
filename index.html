@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Calculator</title>
-</head>
-<body>
-
-
+  </head>
+  <body>
+    <div class="header">
+      <header>Calculator</header>
+    </div>
+    <div class="container">
+      <div class="card">
+        <input type="text" class="input-field" />
+        <div class="btn-container">
+          <span class="span">
+            <button class="sqroot">√x</button>
+            <button class="pi">π</button>
+            <button class="exponent">^</button>
+            <button class="factorial">!</button>
+          </span>
+          <div class="row1">
+            <button class="ac" id="clear">AC</button>
+            <button class="brackets">()</button>
+            <button class="percent">%</button>
+            <button class="division">÷</button>
+          </div>
+          <div class="row2">
+            <button class="seven">7</button>
+            <button class="eight">8</button>
+            <button class="nine">9</button>
+            <button class="multiply">x</button>
+          </div>
+          <div class="row3">
+            <button class="four">4</button>
+            <button class="five">5</button>
+            <button class="6">6</button>
+            <button class="subtract">-</button>
+          </div>
+          <div class="row4">
+            <button class="one">1</button>
+            <button class="two">2</button>
+            <button class="three">3</button>
+            <button class="add">+</button>
+          </div>
+          <div class="row5">
+            <button class="zero">0</button>
+            <button class="decimal">.</button>
+            <button class="back"><-</button>
+            <button class="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
